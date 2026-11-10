@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Dictionary",
+    "slug": "dictionary-mobile-test",
+    "version": "1.0.0",
+    "scheme": "dictionary",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.coodesh.dictionary"
+    },
+    "android": {
+      "package": "com.coodesh.dictionary",
+      "adaptiveIcon": {
+        "backgroundColor": "#F6D9E8",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-secure-store",
+      "expo-audio"
+    ]
+  }
+}
